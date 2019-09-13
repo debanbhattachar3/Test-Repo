@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name=" Selenium Training Suite" thread-count="1" verbose="2">
+    <parameter name="browser" value="firefox"></parameter>
+    <parameter name="test" value="123"></parameter>
+    <test name="Title Match Test">
+        <classes>
+            <class name="com.debanjan.selenium.DynamicInvokeBrowser"></class>
+        </classes>
+    </test>
+</suite>
